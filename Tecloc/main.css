@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+    border: none;
+    font-family: Arial;
+}
+html::-webkit-scrollbar{
+  width:10px ;
+
+}
+html::-webkit-scrollbar-track{
+ background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+    margin-right: 7rem;
+}
+.logo{
+    width:20px;
+    height: auto;
+    margin-left: 40px;
+    font-size: 20px;
+   display:flex;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    transition: 0.3s;
+}
+ul li a:hover{
+    text-transform: capitalize;
+    color:blue;
+    border-bottom: solid 1px;
+}
+hr{
+    border-bottom: solid 0.1px;
+    color:black;
+    margin-top: 5px;
+}
+.background{
+    background-color:white;
+    color:blue;
+}
+.nav h0,h1,h2,h3,h4{
+    font-size: 20px;
+    margin-left: 10px;
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+h5,h6{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+button{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+img{
+    margin-left: 5px;
+}
+.carousel-caminhao{
+    margin-left: 5px;
+    margin-right: 5px;
+}
